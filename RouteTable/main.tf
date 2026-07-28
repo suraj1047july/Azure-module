@@ -1,7 +1,7 @@
-resource "azurerm_route_table" "example" {
+resource "azurerm_route_table" "this" {
   name                = var.route_table_name
   location            = var.location
-  resource_group = var.resource_group
+  resource_group_name = var.resource_group
 
   route {
     name           = var.route_name

@@ -10,3 +10,7 @@ variable "vnet" {
   description = "Name of the virtual network"
   type        = string
 } 
+variable "address_prefixes" {
+  description = "Subnet address prefixes"
+  type        = list(string)
+}

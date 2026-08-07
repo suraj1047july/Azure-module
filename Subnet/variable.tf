@@ -14,3 +14,8 @@ variable "address_prefixes" {
   description = "Subnet address prefixes"
   type        = list(string)
 }
+variable "route_table_id" {
+  description = "Route Table ID to associate with the subnet"
+  type        = string
+  default     = null
+}

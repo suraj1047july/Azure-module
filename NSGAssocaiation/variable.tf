@@ -3,7 +3,7 @@ variable "subnet_id" {
   type        = string
 }
 
-variable "route_table_id" {
-  description = "Route Table ID"
+variable "network_security_group_id" {
+  description = "NSG ID"
   type        = string
 }

@@ -1,9 +1,9 @@
 variable "subnet_id" {
-  description = "Subnet ID"
+  description = "The ID of the subnet"
   type        = string
 }
 
 variable "network_security_group_id" {
-  description = "NSG ID"
+  description = "The ID of the Network Security Group"
   type        = string
 }
